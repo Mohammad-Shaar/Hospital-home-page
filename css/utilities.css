@@ -1,7 +1,9 @@
-/* URL Google Fonts here */
+/* URL Google Fonts here
+===========================================================================*/
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* variables here */
+/* variables here
+===========================================================================*/
 :root {
     --nav-footer-color: #3c6874;
     --main-color: #0cb8b6;
@@ -10,12 +12,17 @@
     --white-color: white;
 }
 
-/* General Sitings */
+/* General Sitings
+===========================================================================*/
 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    scroll-behavior: smooth;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 body {
@@ -61,7 +68,8 @@ img {
     width: 100%;
 }
 
-/* General Countainer Sitings */
+/* General Countainer Sitings
+===========================================================================*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -75,11 +83,13 @@ img {
     }
 }
 
-/* General Flex Sitings */
+/* General Flex Sitings
+===========================================================================*/
 .flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-/* End of General Sitings */
+/* End of General Sitings
+===========================================================================*/

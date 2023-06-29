@@ -1,6 +1,7 @@
-/* Header section */
+/* Header section
+=================================================================*/
 header {
-    height: 80vb;
+    height: 80vh;
     background-image: url(../images/bg-banner.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -10,7 +11,8 @@ header {
     height: 100%;
     background-color: rgba(60, 104, 116, 70%);
 }
-/* nav bar */
+/* nav bar
+=================================================================*/
 nav {
     width: 100%;
     background-color: var(--nav-footer-color);
@@ -84,11 +86,10 @@ nav a {
     text-transform: uppercase;
 }
 
-/* .logo a:hover {
-    border-bottom: none;
-} */
-/* End nav bar */
-/* intro text */
+/* End nav bar
+=================================================================*/
+/* intro text
+=================================================================*/
 header .intro-text {
     flex-direction: column;
     max-width: 600px;
@@ -143,10 +144,12 @@ header .intro-text {
     transform: rotate(45deg);
 }
 /* End intro text */
-/* End Header section */
+/* End Header section
+=================================================================*/
 
 /* Main */
-/* service section */
+/* service section
+=================================================================*/
 main {
     margin-top: 2em;
 }
@@ -198,8 +201,10 @@ main {
     color: var(--main-color);
     margin-bottom: 1.6em;
 }
-/* End service section */
-/* important-info */
+/* End service section
+=================================================================*/
+/* important-info
+=================================================================*/
 #important-info {
     background-color: var(--main-color);
     margin-top: 3em;
@@ -267,8 +272,10 @@ table tr::after {
     bottom: -3px;
     left: 0;
 }
-/* End important-info */
-/* more-info section */
+/* End important-info
+=================================================================*/
+/* more-info section
+=================================================================*/
 #more-info {
     margin-top: 3em;
     align-items: flex-start;
@@ -320,14 +327,16 @@ table tr::after {
 .sub-info {
     margin-bottom: 0.8em;
 }
-/* End more-info */
-/* doctors-sec section*/
+/* End more-info 
+=================================================================*/
+/* doctors-sec section
+=================================================================*/
 #doctors-sec {
     margin-top: 3em;
     margin-bottom: 2em;
 }
 
-.doctors {
+#doctors-sec .doctors {
     margin-top: 1.5em;
     column-gap: 1.5em;
     row-gap: 0.7em;
@@ -366,8 +375,10 @@ table tr::after {
 .doc-icon i {
     margin: 0.5em 0.5em 0.5em 0;
 }
-/* End doctors-sec */
-/* Commentes-section */
+/* End doctors-sec
+=================================================================*/
+/* Commentes-section
+=================================================================*/
 #commentes-section {
     background-color: #eeeeee;
 } 
@@ -383,7 +394,6 @@ table tr::after {
 }
 
 .comment {
-    /* margin: 2em auto; */
     position: relative;
     width: 300px;
     min-width: 230px;
@@ -427,8 +437,10 @@ table tr::after {
     margin-bottom: 0;
 }
 
-/* End Commentes-section */
-/* few-words section */
+/* End Commentes-section
+=================================================================*/
+/* few-words section
+=================================================================*/
 #few-words {
     background-color: #29302e;
 }
@@ -460,8 +472,10 @@ table tr::after {
 .few-words-text {
     margin: 1em auto;
 }
-/* End few-words */
-/* contact-us section */
+/* End few-words
+=================================================================*/
+/* contact-us section
+=================================================================*/
 #contact-us {
     margin-top: 3em;
 }
@@ -507,9 +521,11 @@ input[type="submit"] {
     border: none;
 }
 /* End contact-us */
-/* End main */
+/* End main
+=================================================================*/
 
-/* Footer */
+/* Footer
+=================================================================*/
 footer {
     margin-top: 3em;
     padding-top: 2em;
@@ -579,4 +595,5 @@ footer .end p {
     text-transform: capitalize;
     font-weight: 100;
 }
-/* End footer */
+/* End footer
+=================================================================*/
