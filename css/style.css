@@ -92,7 +92,7 @@ nav a {
 =================================================================*/
 header .intro-text {
     flex-direction: column;
-    max-width: 600px;
+    width: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -100,8 +100,8 @@ header .intro-text {
     overflow: visible;
 }
 
-@media (max-width: 600px){
-    .intro-text {
+@media (max-width: 700px){
+    #intro {
         width: 100%;
     }
 }
