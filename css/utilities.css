@@ -27,15 +27,15 @@ body {
     font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
 
-@media (max-width: 299px) {
-    body {
-        font-size: 12px;
-    }
-}
-
 @media (max-width: 395px) {
     body {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 299px) {
+    body {
+        font-size: 12px;
     }
 }
 
