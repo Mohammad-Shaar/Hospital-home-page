@@ -67,7 +67,7 @@ nav > .flex {
 }
 
 .logo {
-    width: 150px;
+    width: 9.375em;
 }
 
 nav li {
@@ -176,7 +176,7 @@ main {
 .services-type {
     max-width: 700px;
     column-gap: 1.5em;
-    row-gap: 0.7em;
+    row-gap: 1.5em;
 }
 
 .services-type  div {
@@ -223,7 +223,7 @@ main {
 .important-info-card::before {
     content: "";
     position: absolute;
-    width: 3px;
+    width: 2px;
     height: 100%;
     background-color: var(--white-color);
     top: 0;
@@ -233,7 +233,7 @@ main {
 .important-info-card h1 {
     text-transform: capitalize;
     color: var(--white-color);
-    margin: 1em 0;
+    margin: 0.3em 0 1em;
 }
 
 .important-info-card p {
@@ -247,12 +247,14 @@ main {
     display: block;
     width: fit-content;
     text-transform: uppercase;
+    margin-bottom: 0.3em;
 }
 
 table {
     width: 100%;
     max-width: 250px;
     border-spacing: 5px;
+    margin-bottom: 0.3em;
 }
 
 table tr {
@@ -338,8 +340,9 @@ table tr::after {
 
 #doctors-sec .doctors {
     margin-top: 1.5em;
-    column-gap: 1.5em;
+    column-gap: 0.7em;
     row-gap: 0.7em;
+    align-items: stretch;
 }
 
 .doctor-card {
@@ -351,7 +354,7 @@ table tr::after {
 
 @media (max-width: 525px){
     .doctor-card {
-        width: 150px;
+        width: 9.375em;
     }
 }
 
@@ -395,8 +398,8 @@ table tr::after {
 
 .comment {
     position: relative;
-    width: 300px;
-    min-width: 230px;
+    width: 18.75em;
+    min-width: 14.375em;
     flex-grow: 1;
 }
 
@@ -428,8 +431,8 @@ table tr::after {
 .comment-name {
     text-transform: capitalize;
     position: absolute;
-    bottom: 3px;
-    left: 50px;
+    bottom: 0.1875em;
+    left: 3.125em;
 }
 
 .comment-name span {
@@ -454,11 +457,11 @@ table tr::after {
 }
 
 .few-words-title {
-    width: 200px;
+    width: 15.625em;
 }
 
 .few-words-text {
-    width: 250px;
+    width: 15.625em;
     position: relative;
 }
 
@@ -589,6 +592,7 @@ footer h1 {
 
 footer .end {
     border-top: 1px solid var(--white-color);
+    text-align: center;
 }
 
 footer .end p {
