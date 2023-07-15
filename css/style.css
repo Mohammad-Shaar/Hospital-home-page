@@ -103,6 +103,7 @@ header .intro-text {
 @media (max-width: 700px){
     #intro {
         width: 100%;
+        top: 40%;
     }
 }
 
@@ -347,14 +348,18 @@ table tr::after {
 
 .doctor-card {
     border: 2px solid #eeeeee;
-    width: 200px;
-    max-width: 300px;
-    flex-grow: 1;
+    width: 250px;
 }
 
-@media (max-width: 525px){
+@media (max-width: 625px){
     .doctor-card {
-        width: 9.375em;
+        width: 9em;
+    }
+}
+
+@media (max-width: 500px){
+    .doctor-card {
+        flex-grow: 1;
     }
 }
 
@@ -399,7 +404,7 @@ table tr::after {
 .comment {
     position: relative;
     width: 18.75em;
-    min-width: 14.375em;
+    max-width: 400px;
     flex-grow: 1;
 }
 
